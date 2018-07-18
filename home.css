@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Antic-Regular;
+    src: url(fonts/Antic-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cour;
+    src: url(fonts/Cour.ttf);
+}
+body{
+    /*background-color: #B76456;  */
+    background-color: #FF6347;
+}
+.container-fluid{
+   
+}
+ 
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background-size: cover; 
+   }
+
+.logo{
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+.logo-face{
+    height: 2rem;
+}
+.right{
+    right: 1rem;
+    position: relative;
+}
+
+
+.navbar-bg{
+    background-color: white;
+}
+
+.nav-link{
+    color:#D9401E;
+    text-decoration: none;
+    font-family:Cour;
+}
+
+h4{
+    color:#D9401E;
+    text-decoration: none;
+    font-family: Cour;
+}
+
+tittle{
+    color:white;
+    font-family: Cour;
+    text-indent: 50px;
+}
+
+.navbar-toggler{
+    background-color: black;
+  }
+
+.navbar-default .navbar-toggle{
+    border-color: white;
+  }
+
+.banner{
+    background-color: rgba(255,99,71,0.6);
+    padding-top: 11rem;
+    padding-bottom: 12rem;
+}
+
+.img-home{
+    margin-top: 8rem;
+}
+
+#aboutus{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: rgba(255,255,255,.8);
+    transition-delay: 8s;
+}
+.portfolio{
+    background-color: rgba(255,99,71,0.8);
+}
+
+#portfolio{
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background-color: rgba(255,99,71,0.8);
+}
+
+#printing{
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+    background-color: rgba(255,99,71,0.8);
+}
+
+.printing{
+    height: 50%;
+
+}
+
+.printing2{
+    margin-top: 1rem;
+}
+
+.img:hover{
+    transition: 9s;
+}
+
+.order{
+    margin-top:5rem;
+    width: 15rem;
+    margin-bottom:5rem;
+}
+
+.order_text{
+    font-family:Cour;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-size: 1.2rem;
+}
+
+.order_text:hover{
+    color: white;
+    background-color: #D9401E;
+    transition: background-color 0.3s;
+}
+
+.contact{
+    background-color: rgba(255,255,255,.9);
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-family:Cour;
+    color: #D9401E;
+    
+}
+
+.contact_text{
+    text-decoration:none;
+    text-align: right;
+
+}
+
+.none{
+    color: #D9401E;
+    font-size: 100%;
+}
+@media only screen and (max-width: 670px) {
+    .none {
+        font-size: 70%;
+    }
+}
+.none:hover{
+    text-decoration:none;
+    color:black;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid white;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid white;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+}
+
